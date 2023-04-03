@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "x7ddf74479jn5 <x7ddf74479jn5@gmail.com> (https://github.com/x7ddf74479jn5)",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	}
 }

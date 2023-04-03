@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/x7ddf74479jn5/config/issues"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	}
 }
