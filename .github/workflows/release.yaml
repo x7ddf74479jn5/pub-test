@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 defaults:
   run:
     shell: bash
@@ -60,4 +62,4 @@ jobs:
           createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
