@@ -13,6 +13,9 @@ defaults:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -49,6 +52,7 @@ jobs:
         run: |
           cat << EOF > "$HOME/.npmrc"
             //npm.pkg.github.com/:_authToken=$NPM_TOKEN
+            @x7ddf74479jn5:registry=https://npm.pkg.github.com/
           EOF
 
       - name: Create release PR or publish to GitHub Packages
