@@ -1,9 +1,11 @@
 {
   "name": "@x7ddf74479jn5/eslint-config-x7ddf74479jn5-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "x7ddf74479jn5 eslint config",
   "main": "index.js",
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "x7ddf74479jn5 <x7ddf74479jn5@gmail.com> (https://github.com/x7ddf74479jn5)",
   "license": "MIT",
   "homepage": "https://github.com/x7ddf74479jn5/config/tree/main/packages/eslint-config-x7ddf74479jn5#readme",
@@ -15,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/x7ddf74479jn5/config/issues"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
