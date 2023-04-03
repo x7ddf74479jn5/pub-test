@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "x7ddf74479jn5/pub-tesst" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "x7ddf74479jn5/pub-test" }],
   "commit": false,
   "fixed": [],
   "linked": [],
