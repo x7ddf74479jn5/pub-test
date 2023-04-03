@@ -63,7 +63,7 @@ jobs:
           publish: pnpm ci:publish
           title: '[ci] release'
           commit: '[ci] release'
-          createGithubReleases: false
+          createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
