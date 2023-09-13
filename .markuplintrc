@@ -6,6 +6,6 @@
     ".[jt]sx$": "@markuplint/jsx-parser"
   },
   "specs": {
-    ".[jt]sx$": "@markuplint/react-spec"
+    ".[jt]sx$": "@markuplint/react-test"
   }
 }
